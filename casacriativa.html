@@ -31,7 +31,7 @@
                 </main>
                
                 <section id="button">
-                    <button>Tenho uma ideia.</button>
+                    <button onclick="onOff()">+ Adicionar Ideia.</button>
                     <button class="fat">Ver Ideias</button>
                 </section>
                 
@@ -51,7 +51,7 @@
 
                 <div class="content">
                     <h4>Curso de Programção</h3>
-                    <p>Estudos</p>
+                    <p class="paragrafos">Estudos</p>
 
                 <div class="descripiton">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus ea deleniti ullam autem pariatur eum, at officia odio totam, inventore perferendis cupiditate quam vel neque in numquam voluptates laboriosam iure?                </div>
@@ -65,7 +65,7 @@
 
                 <div class="content">
                     <h3>Exercícios</h3>
-                    <p>Saúde</p>
+                    <p class="paragrafos">Saúde</p>
 
                 <div class="descripiton">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus ea deleniti ullam autem pariatur eum, at officia odio totam, inventore perferendis cupiditate quam vel neque in numquam voluptates laboriosam iure?                </div>
@@ -79,7 +79,7 @@
 
                 <div class="content">
                     <h3>Meditação</h3>
-                    <p>Mente</p>
+                    <p class="paragrafos">Mente</p>
 
                 <div class="descripiton">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus ea deleniti ullam autem pariatur eum, at officia odio totam, inventore perferendis cupiditate quam vel neque in numquam voluptates laboriosam iure?                </div>
@@ -89,6 +89,54 @@
         </section>
     
     </div>   
+
+    <!--Modal-->
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+
+            <form action="">
+
+                <div class="input-wrapper">
+                    <label for="title">Titulo da Ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da Imagem</label>
+                    <input type="url" name="image">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="descripiton">Digite uma descrição para essa ideia</label>
+                    <textarea name="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+
+            <button class="voltar" onclick="onOff()">Voltar</button>
+            <button>Salvar</button>
+                
+
+                
+
+                
+
+            </form>
+        </div>
+
+    </div>
 
 </body>
 </html>

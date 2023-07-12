@@ -27,7 +27,7 @@ body {
 
 main{
     margin: 32px 0;
-    font-size: 70%;
+    font-size: 95%;
     
      
 }
@@ -35,7 +35,7 @@ main{
 #buttons{
     display: flex;
     margin-bottom: 32px;
-    font-size: 70%;
+    font-size: 80%;
 }
 
 button {
@@ -44,12 +44,12 @@ button {
     font-weight: bold;
     cursor: pointer;
     outline: none;
-    font-size: 70%;
+    font-size: 80%;
     text-align: center;
 }
 
 button:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 button.fat:hover{
@@ -66,36 +66,40 @@ button.fat {
 footer{
     text-align: center;
     font-size: 70%;
-    }
+
+}   
+
+footer a{
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
+}
 
 footer a:hover{
     color: #FF5E84;
     font-weight: bold;
-    }
-.hide {
-    display: none;
-}
-
-.content{
-    margin-top: 50px;
-    padding-bottom: 50px;
-    
 
 }
+
 
 .descripiton{
     margin-top: 5px;
     
 }
 
+.paragrafos{
+    color: rgb(172, 172, 172);
+}
+
 
 .idea{
     margin-left: 100px;
     display: flex;  
-    font-size: 70%;
+    font-size: 100%;
     margin-top: 50px;
     margin-bottom: -20px;
     background-color: #fff;
+    padding: 10px
     
 }
 
@@ -103,12 +107,12 @@ footer a:hover{
     width: 40px;
     height: 40px;
     margin-right: 10px;
-    margin-top: 40px;
+    margin-top: px;
 }
 
 .idea h3{
     margin: 0;
-    font-size: 80%;
+    font-size: 100%;
 }
 
 #last-Ideia{
@@ -119,25 +123,130 @@ footer a:hover{
 
 #irParaEstudos{
     margin-left: 428px;
-    margin-top:  135px;
+    margin-top:  112px;
     position:absolute; 
     color: #FF5E84;
+    text-decoration: none;
     
 }
 
 #irParaSaude{
     margin-left: 428px;
-    margin-top: 115px;
+    margin-top: 90px;
     position:absolute;
     color: #FF5E84;
+    text-decoration: none;
 }
 
 #irParaMeditacao{
     margin-left: 428px;
-    margin-top: 115px;
+    margin-top: 90px;
     position:absolute;
     color: #FF5E84;
+    text-decoration: none;
 }
+
+
+/* Modal */
+
+
+#modal{
+    background-color: #FF5E84;
+
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#modal .content {
+    margin-top: 128px;
+
+
+    color: white;
+}
+
+#modal .content h1 {
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+#modal form {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.content form div:nth-child(3),
+.content form div:nth-child(4),
+.content form div:nth-child(5){
+    grid-column: span 2;
+}
+
+
+form input,form textarea{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgba(141, 25, 52, 0.5);
+    outline: none;
+    font-size: 16px;
+}
+
+label{
+    font-weight: 600;
+    line-height: 32px;
+}
+
+form button{
+    
+    background-color: white;
+    width: 150px;
+    height: 40px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    grid-column: 2;
+    justify-self: end;
+}
+
+
+form button:hover{
+    background-color: #0984e3;
+    color: white;
+    text-decoration: none;
+}
+
+#modal.hide{
+    display: none;
+}
+
+form .voltar{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    grid-column: 1;
+    justify-self: fi;
+    
+}
+
 
 
 
