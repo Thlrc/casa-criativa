@@ -1,0 +1,144 @@
+body {
+    
+    background: #eee;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoRosa{
+    color: #FF5E84;
+}
+
+#container {
+    width: 80%;
+    max-width: 980px;
+
+    margin: 40px auto;
+
+    display: flex;
+    
+}
+
+#intro{
+    width: 200px;
+    
+    margin-right: 20px;
+}
+
+main{
+    margin: 32px 0;
+    font-size: 70%;
+    
+     
+}
+
+#buttons{
+    display: flex;
+    margin-bottom: 32px;
+    font-size: 70%;
+}
+
+button {
+    border: none;
+    color: #FF5E84;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 70%;
+    text-align: center;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+button.fat:hover{
+    text-decoration: none;
+}
+
+button.fat {
+    background: #FF5E84;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px #FF5E8432;
+}
+
+footer{
+    text-align: center;
+    font-size: 70%;
+    }
+
+footer a:hover{
+    color: #FF5E84;
+    font-weight: bold;
+    }
+.hide {
+    display: none;
+}
+
+.content{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+.descripiton{
+    margin-top: 5px;
+    
+}
+
+
+.idea{
+    margin-left: 100px;
+    display: flex;  
+    font-size: 70%;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    background-color: #fff;
+    
+}
+
+.idea img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.idea h3{
+    margin: 0;
+    font-size: 80%;
+}
+
+#last-Ideia{
+    margin-top: -50px;
+    font-size: 80%;
+   
+}
+
+#irParaEstudos{
+    margin-left: 428px;
+    margin-top:  135px;
+    position:absolute; 
+    color: #FF5E84;
+    
+}
+
+#irParaSaude{
+    margin-left: 428px;
+    margin-top: 115px;
+    position:absolute;
+    color: #FF5E84;
+}
+
+#irParaMeditacao{
+    margin-left: 428px;
+    margin-top: 115px;
+    position:absolute;
+    color: #FF5E84;
+}
+
+
+
+
